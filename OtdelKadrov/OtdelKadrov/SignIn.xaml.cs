@@ -35,18 +35,18 @@ namespace OtdelKadrov
 
         private void btnSignInRun_Click(object sender, RoutedEventArgs e)
         {
-                string result = new SqlCommand("SELECT COUNT(*) FROM Сотрудник WHERE ??? = '" + login.Text.ToString() + "' and ??? = '" + hashMP5.ConvertToHash(password.Text.ToString()).ToString() + "'", connection).ExecuteScalar().ToString();
-                if (Convert.ToInt32(result) > 0)
-                {
-                    MessageBox.Show("Добро пожаловать, " + login.Text.ToString() + "!");
+                //string result = new SqlCommand("SELECT COUNT(*) FROM Сотрудник WHERE ??? = '" + login.Text.ToString() + "' and ??? = '" + hashMP5.ConvertToHash(password.Text.ToString()).ToString() + "'", connection).ExecuteScalar().ToString();
+             //   if (Convert.ToInt32(result) > 0)
+              //  {
+               //     MessageBox.Show("Добро пожаловать, " + login.Text.ToString() + "!");
 
-                    id_user = Convert.ToInt32(new SqlCommand("SELECT id FROM Сотрудник WHERE ??? = '" + login.Text.ToString() + "' and ??? = '" + hashMP5.ConvertToHash(password.Text.ToString()).ToString() + "'", connection).ExecuteScalar().ToString());
+                id_user = 666;// Convert.ToInt32(new SqlCommand("SELECT id FROM Сотрудник WHERE ??? = '" + login.Text.ToString() + "' and ??? = '" + hashMP5.ConvertToHash(password.Text.ToString()).ToString() + "'", connection).ExecuteScalar().ToString());
                     if (GoMain != null)
                     {
                         GoMain(this, EventArgs.Empty);
                     }
 
-                }
+              //  }
         }
         class hashMP5
         {

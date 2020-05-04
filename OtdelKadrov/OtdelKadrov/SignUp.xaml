@@ -4,9 +4,8 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:OtdelKadrov"
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="SignUp">
+      mc:Ignorable="d" d:DesignWidth="800"
+      Title="SignUp" Height="564.4">
 
     <Grid>
         <StackPanel HorizontalAlignment="Center" Margin="0,0,10,-0.4" Width="790">
@@ -20,6 +19,10 @@
                 <DockPanel Margin="0,50,0,0">
                     <Label Width="200" Foreground="Black" FontSize="26">Почта</Label>
                     <TextBox Width="509" FontSize="26" Name="email"></TextBox>
+                </DockPanel>
+                <DockPanel Margin="0,50,0,0">
+                    <Label Width="200" Foreground="Black" FontSize="26" Content="ФИО"/>
+                    <TextBox Width="509" FontSize="26" x:Name="FIO"/>
                 </DockPanel>
                 <DockPanel Margin="0,50,0,0">
                     <Label Width="200" Foreground="Black" FontSize="26">Пароль</Label>

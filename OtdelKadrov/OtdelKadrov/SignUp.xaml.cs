@@ -83,7 +83,27 @@ namespace OtdelKadrov
             {
                 if (SI != null)
                 {
-                    string result = new SqlCommand("INSERT INTO Сотрудник VALUES('" + email.Text.ToString() + "','" + hashMP5.ConvertToHash(password.Text.ToString()) + "','" + login.Text.ToString() + "')", connection).ExecuteNonQuery().ToString();
+                    string[] arrFio = FIO.Text.Split(' ');
+                    /*
+                     код_сотрудника int primary key not null,
+                    номер_сотрудника int ,
+
+                    фамилия nvarchar (32),
+                    имя nvarchar (32),
+                    отчество nvarchar(32),
+                    дата_рождения datetime ,
+                    пол nvarchar (32),
+                    улица_проживания nvarchar (32),
+                    номер_дома int ,
+                    образование nvarchar (45),
+                    моб_телефон int ,
+                    дата_принятия_на_работу datetime,
+                    стаж_работы datetime,
+                    логин nvarchar (32),
+                    пароль nvarchar (32)
+                     */
+                   // string result = new SqlCommand("INSERT INTO Сотрудники VALUES('"+arrFio[0]+ "','"+arrFio[1]+ "','"+arrFio[2]+ "','"++"',)", connection).ExecuteNonQuery().ToString();
+                    //string result = new SqlCommand("INSERT INTO Сотрудники () VALUES('" + email.Text.ToString() + "','" + hashMP5.ConvertToHash(password.Text.ToString()) + "','" + login.Text.ToString() + "')", connection).ExecuteNonQuery().ToString();
                     SI(this, EventArgs.Empty);
                 }
             }

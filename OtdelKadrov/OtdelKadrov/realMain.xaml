@@ -1,0 +1,30 @@
+﻿<Window x:Class="OtdelKadrov.realMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OtdelKadrov"
+        mc:Ignorable="d"
+        Title="realMain" Height="450" Width="800">
+    <Grid>
+        <TreeView >
+            <TreeViewItem Header="Отдел программного обеспечения">
+                <TreeViewItem Header="Борохов Николай (техник-программист, 3500р)">
+
+                </TreeViewItem>
+                <TreeViewItem Header="Мисюченко Владислав (техник-программист, 400р)">
+
+                </TreeViewItem>
+                <TreeViewItem Header="борОхов Николька (техник-программист, 3000р)">
+
+                </TreeViewItem>
+            </TreeViewItem>
+            <TreeViewItem Header="Отдел бухгалтерии">
+
+            </TreeViewItem>
+            <TreeViewItem Header="Отдел администрации">
+
+            </TreeViewItem>
+        </TreeView>
+    </Grid>
+</Window>

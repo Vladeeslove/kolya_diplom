@@ -21,3 +21,9 @@ D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\OtdelKadrov.cspro
 D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\OtdelKadrov.csproj.CoreCompileInputs.cache
 D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\OtdelKadrov.exe
 D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\OtdelKadrov.pdb
+D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\realMain.g.cs
+D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\realMain.baml
+D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\modalWindow.g.cs
+D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\modalWindow.baml
+D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\Add_Otdel.g.cs
+D:\_KolyaDiplom\kolya_diplom\OtdelKadrov\OtdelKadrov\obj\Debug\Add_Otdel.baml
